@@ -450,4 +450,8 @@ header {
     border: 10px solid var(--dark-color)
 }
 
+.text-after-img {
+    padding-bottom: 1em;
+}
+
 
