@@ -398,26 +398,6 @@ header {
     opacity: .7;
 }
 
-.portfolio__item > i {
-    display: none;
-}
-
-@media (max-width: 400px){
-    .portfolio__item {
-        position: relative;
-    }
-
-    .portfolio__item > i{
-        display: inline;
-        color: var(--dark-color);
-        z-index: 100;
-        position: absolute;
-        top: 1em;
-        right: 1em;
-    }
-
-}
-
 .footer{
     background: #111;
     text-align: center;
