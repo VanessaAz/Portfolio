@@ -46,6 +46,11 @@ section {
     }
 }
 
+:focus {
+    border: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}
+
 /* Typography */
 
 h1 {font-size: var(--fs-h1)}
@@ -382,7 +387,13 @@ header {
     transition: transform 700ms ease-in-out;
 }
 
-.portfolio__image:hover{
+.portfolio__image:focus {
+    z-index: 2;
+    position: relative;
+}
+
+.portfolio__image:hover, 
+.portfolio__image:focus{
     transform: scale(1.5);
     opacity: .7;
 }
