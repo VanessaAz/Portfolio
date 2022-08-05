@@ -1,0 +1,125 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vanessa Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        
+        <script src="https://kit.fontawesome.com/751712ee5c.js" crossorigin="anonymous"></script>        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-laptop-code" class="logo__icon"></i>
+            </div>
+            <button class="nav-toggle"><span class="hamburguer"></span></button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#services">Skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about-me">About me</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#my-work">My Work</a></li>
+                </ul>
+            </nav>    
+        </header>
+        
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <span>Vanessa</span>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
+            <img src="img/me-short.JPEG" class="section__image--intro">
+        </section>
+        
+        <section id="services" class="my-services">
+            <h2 class="section__title section__title--services">My skills</h2>
+            <div class="services">
+                <div class="section__service">
+                    <h3 class="section__service--title">Javascript</h3>
+                    <p class="section__service--body">Javascript provides an incredible amount of functionality and ease of use. The most exciting projects were the ones in that I used APIs (Application Programming Interfaces). The APIs allow us to build applications that can talk to each other without being programmed by a human.</p>
+                </div>
+                
+                <div class="section__service">
+                    
+                    <h3 class="section__service--title">HTML & CSS</h3>
+                    <p class="section__service--body">The world of design has changed a lot in the past few years. The design community has been moving away from box-based layouts and more toward an emphasis on flexible grids, responsive designs, and user interface elements. The most exciting projects were the ones with flex-box and applying UI rules. </p>
+                </div>
+                
+                <div class="section__service">
+                    <h3 class="section__service--title">Figma</h3>
+                    <p class="section__service--body">Figma is a design tool that allows me to create interfaces, user interfaces, color palettes, and other visual elements. Is awesome because we can create a visual version of the final project. </p>
+                </div>
+            </div>
+            <a href="#my-work" class="section__service--link">See my work</a>
+        </section>
+        
+        <section id="about-me" class="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> Front-end Developer based on Portugal</p>
+            <div class="section__body--about">
+                <p>I'm a clinical analyst, I love the area of health sciences, but I started to get really interested in programming. I started by learning some basics of Python and then taking courses in HTML, CSS and Javascript. The next step is to learn about React!</p>
+                <p>I'm passionate about self development, read books, and learning new things. I have always enjoyed the challenge of taking complex ideas and making them understandable. </p>
+            </div>
+            <img src="img/me-longer.jpeg" class="image--about"> 
+        </section>
+        
+        <section id="my-work" class="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+            
+           <div class="portfolio">
+               
+               <a href="scoreboard.html" class="portfolio__item">
+                   <img src="img/scoreboard-mock.jpg" class="portfolio__image">
+               </a>
+               
+               <a href="convertor.html" class="portfolio__item">
+                   <img src="img/convertor-mock.jpg" class="portfolio__image">
+               </a>
+               
+               <a href="random-password.html" class="portfolio__item">
+                   <img src="img/random-password-mock.jpg" class="portfolio__image">
+               </a>
+               
+               <a href="color-scheme.html" class="portfolio__item">
+                   <img src="img/color-scheme-mock.jpg" class="portfolio__image">
+               </a>
+               
+                <a href="figma-project.html" class="portfolio__item">
+                   <img src="img/figma-mock.jpg" class="portfolio__image">
+               </a>
+               
+                <a href="oldagram.html" class="portfolio__item">
+                   <img src="img/oldagram-mock.jpg" class="portfolio__image">
+               </a> 
+            
+           </div> 
+        </section>
+        
+        <footer class="footer">
+            <a href="vanessa.santos.azevedo19@gmail.com" class="footer__link">vanessa.santos.azevedo19@gmail.com</a>
+            <ul class="social__list">
+                
+                <li class="social__list--item"><a href="#" class="social__list--link">
+                    <i class="fa-brands fa-dribbble"></i>
+                </a></li>
+                
+                <li class="social__list--item"><a href="https://www.linkedin.com/in/vanessa-azevedo123/" class="social__list--link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a></li>
+                    
+                <li class="social__list--item"><a href="https://github.com/VanessaAz" class="social__list--link">
+                    <i class="fa-brands fa-github"></i>
+                </a></li>
+            </ul>
+        </footer>
+        
+        <script src="index.pack.js"></script>
+    </body>
+</html>
