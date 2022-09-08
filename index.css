@@ -372,8 +372,7 @@ header {
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 3px;  
 }
 
@@ -381,11 +380,13 @@ header {
     overflow: hidden;
     line-height: 0;
     background-color: var(--dark-color);
+    vertical-align: bottom;
 }
 
 .portfolio__image{
     object-fit: cover;
     transition: transform 700ms ease-in-out;
+    line-height: 0;
 }
 
 .portfolio__image:focus {
